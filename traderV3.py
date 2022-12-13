@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import numpy as np
 from datetime import date, datetime, timedelta
+# from LSTM import model
 
 global inventory
 global funds 
@@ -158,5 +159,4 @@ def main():
     simulate(100)
 
 if __name__ == '__main__':
-    
     main()

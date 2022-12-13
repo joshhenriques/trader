@@ -105,7 +105,7 @@ x_test = torch.from_numpy(x_test).type(torch.Tensor)
 y_train = torch.from_numpy(y_train).type(torch.Tensor)
 y_test = torch.from_numpy(y_test).type(torch.Tensor)
 
-
+S
 input_dim = 1
 hidden_dim = 60
 num_layers = 3
